@@ -8,7 +8,7 @@
 
 This repository contains 2 underlying ways to crawl data from a specific website. There are **HTML crawling** with _Python_, _Selenium_, _BeautifulSoup_, and **API crawling** with _Python_, _requests_.
 
-## Details
+## Approach
 
 ### HTML crawling
   
