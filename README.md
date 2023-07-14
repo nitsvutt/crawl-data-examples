@@ -12,7 +12,7 @@ This repository contains 2 underlying ways to crawl data from a specific website
 
 ### HTML crawling
   
-The **HTML crawling** way ussualy is benefical to coping with highly secure website that requires login and does not have API, data only represents by html syntax.
+The **HTML crawling** way usually is benefical to coping with highly secure website that requires login and does not have API, data only represents by html syntax.
 
 - _Selenium_ bindings provides a simple API to write functional/acceptance tests using Selenium WebDriver. In this case, I use it to interact with the website automaticaly.
 
