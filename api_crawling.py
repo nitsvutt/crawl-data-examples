@@ -45,7 +45,7 @@ for i in range(1,74):
     dict_list = response.json()["body"]["result"]
     
     # append data to the dataframe
-    data = pd.concat([data, pd.DataFrame.from_dict(dict_list[1:])], ignore_index=True)
+    data = pd.concat([data, pd.DataFrame.from_dict(dict_list)], ignore_index=True)
 
 # write dataframe to csv
 data.to_csv("customer.csv", index=False)
