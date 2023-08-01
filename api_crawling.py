@@ -34,7 +34,7 @@ response = requests.post(url, headers=headers, json=json)
 data = pd.DataFrame.from_dict(data={}, columns=response.json()["body"]["result"][0], orient="index")
 
 # loop all pages to get all data
-for i in range(1,74):
+for i in range(1,80):
     # define pageInfo
     json = {"pageInfo":{"currentPage":i,"pageSize":100}}
 
