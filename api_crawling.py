@@ -25,7 +25,7 @@ headers = {
 }
 
 # define pageInfo
-json = {"pageInfo":{"currentPage":0,"pageSize":100}}
+json = {"pageInfo":{"currentPage":1,"pageSize":100}}
 
 # get response from the post request
 response = requests.post(url, headers=headers, json=json)
