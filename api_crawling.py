@@ -7,21 +7,7 @@ url = "http:example.com/app/customer/load-list"
 
 # define headers
 headers = {
-    "authority":"value",
-    "accept":"value",
-    "accept-language":"value",
-    "content-type":"value",
-    "cookie":"value",
-    "origin":"value",
-    "referer":"value",
-    "sec-ch-ua":"value",
-    "sec-ch-ua-mobile":"value",
-    "sec-ch-ua-platform":"value",
-    "sec-fetch-dest":"value",
-    "sec-fetch-mode":"value",
-    "sec-fetch-site":"value",
-    "user-agent":"value",
-    "x-client-data":"value"
+    
 }
 
 # define pageInfo
