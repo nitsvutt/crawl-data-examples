@@ -6,9 +6,7 @@ import requests
 url = "http:example.com/app/customer/load-list"
 
 # define headers
-headers = {
-    
-}
+headers = {}
 
 # define pageInfo
 json = {"pageInfo":{"currentPage":1,"pageSize":100}}
