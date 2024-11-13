@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 
 # define url
-url = "http:example.com/app/customer/load-list"
+url = "http://example.com/app/customer/load-list"
 
 # define headers
 headers = {}
